@@ -1,5 +1,11 @@
 #include<stdio.h>
 #include<stdlib.h>
+
+//int e[9][2]={{1,2},{1,6},{2,3},{2,7},{3,4},{4,5},{4,7},{5,6},{5,7}};
+//int cost[]={28,10,16,14,12,22,18,25,24};
+//int n=7; gives cost-99
+
+
 int ec;
 int e[30][2];
 int cost[30];
