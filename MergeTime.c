@@ -41,8 +41,7 @@ Merge (int a[], int l, int mid, int r)
     a[k++] = R[j++];
 }
 
-void
-mergesort (int a[], int l, int r)
+void mergesort (int a[], int l, int r)
 {
   int mid;
   if (l < r)
@@ -58,8 +57,7 @@ mergesort (int a[], int l, int r)
     }
 }
 
-int
-main ()
+int main ()
 {
   int n, *a, i;
   printf ("Enter count of elements:");
@@ -73,7 +71,6 @@ main ()
   printf ("Enter elements\n");
   for (i = 0; i < n; i++)
     scanf ("%d", a[i]);
-  int a[] = { 10, 45, 23, 68, 32, 89, 16, 73, 101, 76, 49, 29, 0 };
   double time_taken;
   t = clock ();
   mergesort (a, 0, n - 1);
