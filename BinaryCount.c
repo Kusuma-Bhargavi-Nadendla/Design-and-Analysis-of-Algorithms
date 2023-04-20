@@ -33,7 +33,6 @@ int binarySearch (int a[], int n, int x)
   printf ("completed %d iterations but not found.", c);
   return -1;
 }
-
 int main ()
 {
   int n, *a, j, i, k;
