@@ -46,7 +46,7 @@ int main ()
     }
   printf ("Enter elements\n");
   for (j = 0; j < n; j++)
-    scanf ("%d", a[j]);
+    scanf ("%d", &a[j]);
   
     printf ("Enter element to be found:");
   scanf ("%d", &k);
