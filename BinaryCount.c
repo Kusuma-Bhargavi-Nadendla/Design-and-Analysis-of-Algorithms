@@ -48,7 +48,7 @@ int main ()
   printf ("Enter elements\n");
   for (j = 0; j < n; j++)
     scanf ("%d", a[j]);
-  i				//nt a[]={-46,-23,-11,5,8,11,16,23,37,56,88,97,0};
+  
     printf ("Enter element to be found:");
   scanf ("%d", &k);
   i = binarySearch (a, n, k);
