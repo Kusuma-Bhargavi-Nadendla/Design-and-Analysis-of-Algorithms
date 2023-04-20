@@ -70,7 +70,7 @@ int main ()
     }
   printf ("Enter elements\n");
   for (i = 0; i < n; i++)
-    scanf ("%d", a[i]);
+    scanf ("%d",&a[i]);
   double time_taken;
   t = clock ();
   mergesort (a, 0, n - 1);
